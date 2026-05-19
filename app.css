@@ -1,0 +1,107 @@
+/* Importar una fuente que parezca de consola */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap');
+
+/* RESET PARA FONDO BLANCO PROFESIONAL */
+body { 
+    font-family: 'JetBrains Mono', monospace; 
+    background-color: #ffffff; /* Fondo blanco limpio */
+    color: #2d3436; /* Gris oscuro para lectura descansada */
+    line-height: 1.6;
+     background-image: url('logo7.avif'); /* Ruta de tu imagen */
+    background-size: cover;                /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center;           /* Centra la imagen */
+    background-repeat: no-repeat;          /* Evita que se duplique como mosaico */
+    background-attachment: fixed;  
+}
+
+/* NAVBAR: Blanca, delgada y con sombra suave */
+.navbar { 
+    background-color: rgba(255, 255, 255, 0.95) !important; 
+    border-bottom: 1px solid #eaeaea !important; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    color: #0984e3 !important; /* Azul profesional */
+    font-weight: bold;
+}
+
+.nav-link { 
+    color: #636e72 !important; 
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.nav-link:hover { 
+    color: #0984e3 !important; 
+}
+
+/* IMAGEN DE PERFIL: Grande y protagonista */
+.nav-profile-img { 
+    width: 80px !important; 
+    height: 80px !important; 
+    border-radius: 50% !important; /* Redonda */
+    
+    box-shadow: 0 4px 15px rgba(9, 132, 227, 0.2);
+    object-fit: cover;
+    filter: none; /* Quitamos el gris para que luzca profesional */
+}
+
+/* TÍTULOS: Estilo terminal pero en fondo claro */
+h1, h2, h3, h4 { 
+    color: #2d3436; 
+    font-family: 'JetBrains Mono', monospace; 
+    font-weight: 700;
+}
+
+h2::before {
+    content: "";
+    color: #00b894; /* Verde consola */
+}
+
+/* TARJETAS DE PROYECTOS: Estilo "Clean Code" */
+.project-card { 
+    background: #fdfdfd !important; 
+    border: 1px solid #edf2f7 !important; 
+    border-radius: 12px !important;
+    transition: all 0.3s ease; 
+}
+
+.project-card:hover { 
+    border-color: #0984e3 !important; 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important; 
+}
+
+.project-card span {
+    color: #0984e3;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* BADGES / ETIQUETAS */
+.badge-light { 
+    background-color: #f1f2f6; 
+    color: #6c5ce7; /* Morado suave */
+    border: none;
+    padding: 5px 10px;
+}
+
+/* FOOTER Y SEPARADORES */
+footer, .card-footer { 
+    background-color: #f9f9f9 !important;
+    color: #b2bec3 !important; 
+    border-top: 1px solid #eee !important;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}
+
+li:hover { 
+    color: #0984e3;
+    text-decoration: none; 
+}
