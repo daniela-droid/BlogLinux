@@ -1,0 +1,83 @@
+h2{
+color: #3dff84;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+h3{
+    color: #62f397;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    width: 80px !important; 
+    height: 80px !important; 
+    border-radius: 50% !important; /* Redonda */
+    
+    box-shadow: 0 4px 15px rgba(9, 132, 227, 0.2);
+    object-fit: cover;
+    filter: none; 
+}
+body{
+    background-color:#131B31 ;
+ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: #16c255;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-color: #131B31;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+span{
+    color: #3dff84;
+}
+
+.card-container {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #01060c;
+    color: white;
+    border-radius: 10px;
+}
+#volver {
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+  border-bottom: #5cc965;
+  padding: 10px 10px;
+  background-color: #5cc965;
+  border-radius: 5px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: Arial, sans-serif, bold;
+  font-weight: bold;
+}
+#volver:hover{
+  background-color: #32eede;
+  transition: 0.3s;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}

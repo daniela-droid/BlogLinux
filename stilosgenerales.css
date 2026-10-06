@@ -1,0 +1,38 @@
+
+.card-container {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #01060c;
+    color: white;
+    border-radius: 10px;
+
+}
+.card-container:hover {
+    background-color: #1a1f2b;
+    transition: background-color 0.3s ease;
+    animation: pulse 1s infinite;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 10px;
+}
+p{
+    color: #14c755;
+}
+header {
+    background-color:rgba(50, 32, 92, 0.2);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+   border-radius: 10px;
+}
+main {
+    padding: 20px;
+    background-image: url('tux.webp');
+    min-height: calc(100vh - 80px);
+}
